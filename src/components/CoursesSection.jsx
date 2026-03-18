@@ -15,11 +15,11 @@ export default function CoursesSection() {
   );
 
   return (
-    <section className="bg-white py-16">
-      <div className="mx-auto grid max-w-7xl gap-10 px-6 md:px-10 lg:grid-cols-2 lg:items-center">
+    <section className="bg-white py-12 md:py-16">
+      <div className="mx-auto grid max-w-7xl gap-8 px-4 sm:gap-10 sm:px-6 md:px-10 lg:grid-cols-2 lg:items-center">
         <div>
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-pink-600">Áreas de apoyo</p>
-          <h2 className="mt-3 text-3xl font-bold md:text-4xl">Clases diseñadas para acompañar su crecimiento académico</h2>
+          <h2 className="mt-3 text-2xl font-bold sm:text-3xl md:text-4xl">Clases diseñadas para acompañar su crecimiento académico</h2>
           <p className="mt-4 text-lg leading-relaxed text-slate-600">
             El enfoque combina refuerzo académico, hábitos de estudio y acompañamiento constante para que cada estudiante avance con seguridad.
           </p>

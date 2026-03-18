@@ -23,13 +23,13 @@ export default function TestimonialsSection() {
   );
 
   return (
-    <section className="mx-auto max-w-7xl px-6 py-16 md:px-10">
+    <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 md:px-10 md:py-16">
       <div className="mb-10 text-center">
         <p className="text-sm font-semibold uppercase tracking-[0.2em] text-emerald-600">Testimonios</p>
-        <h2 className="mt-3 text-3xl font-bold md:text-4xl">Lo que dicen los padres y estudiantes</h2>
+        <h2 className="mt-3 text-2xl font-bold sm:text-3xl md:text-4xl">Lo que dicen los padres y estudiantes</h2>
       </div>
 
-      <div className="grid gap-6 md:grid-cols-3">
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {testimonials.map((item, index) => (
           <motion.div
             key={item.name}

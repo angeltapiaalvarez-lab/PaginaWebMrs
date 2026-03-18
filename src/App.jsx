@@ -7,7 +7,7 @@ import ContactSection from "./components/ContactSection";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-800 font-sans">
+    <div className="min-h-screen w-full overflow-x-hidden bg-slate-50 font-sans text-slate-800">
       <HeroSection />
       <FeaturesSection />
       <CoursesSection />

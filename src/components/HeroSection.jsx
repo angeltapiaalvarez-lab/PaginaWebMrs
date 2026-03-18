@@ -13,7 +13,7 @@ export default function HeroSection() {
         <div className="absolute bottom-0 left-1/3 h-40 w-40 rounded-full bg-yellow-200 blur-3xl" />
       </div>
 
-      <div className="relative mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 py-20 md:px-10 lg:grid-cols-2 lg:items-center lg:py-28">
+      <div className="relative mx-auto grid max-w-7xl grid-cols-1 gap-8 px-4 py-16 sm:gap-10 sm:px-6 md:px-10 lg:grid-cols-2 lg:items-center lg:py-28">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -25,7 +25,7 @@ export default function HeroSection() {
           </div>
 
           <div className="space-y-4">
-            <h1 className="text-4xl font-bold tracking-tight text-slate-900 md:text-5xl lg:text-6xl">
+            <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl md:text-5xl lg:text-6xl">
               Aprende con una profesora que inspira, guía y motiva
             </h1>
             <p className="max-w-xl text-lg leading-relaxed text-slate-600 md:text-xl">
@@ -71,7 +71,7 @@ export default function HeroSection() {
                 <CheckCircle2 className="h-4 w-4" />
                 Cupos disponibles
               </div>
-              <h2 className="text-2xl font-bold text-slate-900 md:text-3xl">Reserva una clase de orientación</h2>
+              <h2 className="text-xl font-bold text-slate-900 sm:text-2xl md:text-3xl">Reserva una clase de orientación</h2>
               <p className="mt-3 text-slate-600">
                 Conoce el nivel del estudiante y recibe una propuesta de apoyo adaptada a sus necesidades.
               </p>

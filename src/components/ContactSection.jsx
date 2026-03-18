@@ -28,11 +28,11 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="bg-slate-900 py-16 text-white">
-      <div className="mx-auto grid max-w-7xl gap-10 px-6 md:px-10 lg:grid-cols-[1fr_1.15fr] lg:items-start">
+    <section id="contact" className="bg-slate-900 py-12 text-white md:py-16">
+      <div className="mx-auto grid max-w-7xl gap-8 px-4 sm:gap-10 sm:px-6 md:px-10 lg:grid-cols-[1fr_1.15fr] lg:items-start">
         <div className="space-y-5">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-300">Contáctanos</p>
-          <h2 className="text-3xl font-bold md:text-4xl">Solicita información y agenda una primera orientación</h2>
+          <h2 className="text-2xl font-bold sm:text-3xl md:text-4xl">Solicita información y agenda una primera orientación</h2>
           <p className="text-slate-300">
             Completa el formulario y recibe respuesta con disponibilidad, modalidad de clases y propuesta de acompañamiento.
           </p>
