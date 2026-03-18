@@ -28,7 +28,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section className="bg-slate-900 py-16 text-white">
+    <section id="contact" className="bg-slate-900 py-16 text-white">
       <div className="mx-auto grid max-w-7xl gap-10 px-6 md:px-10 lg:grid-cols-[1fr_1.15fr] lg:items-start">
         <div className="space-y-5">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-300">Contáctanos</p>

@@ -34,10 +34,13 @@ export default function HeroSection() {
           </div>
 
           <div className="flex flex-col gap-3 sm:flex-row">
-            <Button className="rounded-2xl px-6 py-6 text-base">Solicitar información</Button>
-            <Button variant="outline" className="rounded-2xl px-6 py-6 text-base">
-              Ver metodología
+            <Button 
+              className="rounded-2xl px-6 py-6 text-base"
+              onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
+            >
+              Solicitar información
             </Button>
+
           </div>
 
           <div className="grid grid-cols-1 gap-4 pt-4 sm:grid-cols-3">
