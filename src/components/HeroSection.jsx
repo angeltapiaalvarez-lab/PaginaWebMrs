@@ -63,29 +63,36 @@ export default function HeroSection() {
           initial={{ opacity: 0, scale: 0.96 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.15 }}
-          className="relative"
+          className="relative mt-8 lg:mt-0 lg:ml-8"
         >
-          <Card className="rounded-[28px] border-0 bg-white/90 shadow-2xl backdrop-blur">
-            <CardContent className="p-8 md:p-10">
-              <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-emerald-50 px-3 py-1 text-sm font-medium text-emerald-700 break-words">
+          {/* Main Photo Wrapper */}
+          <div className="relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-[32px] shadow-2xl">
+            <img src="/profesora.png" alt="Profesora impartiendo clases" className="h-full w-full object-cover" />
+          </div>
+
+          {/* Floating Card */}
+          <Card className="absolute -bottom-10 left-1/2 w-[90%] -translate-x-1/2 sm:-bottom-8 sm:-left-12 sm:translate-x-0 sm:w-[340px] rounded-[28px] border-0 bg-white/95 shadow-2xl backdrop-blur">
+            <CardContent className="p-6">
+              <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-emerald-50 px-3 py-1 text-sm font-medium text-emerald-700 break-words">
                 <CheckCircle2 className="h-4 w-4 shrink-0" />
                 Cupos disponibles
               </div>
-              <h2 className="text-xl font-bold text-slate-900 sm:text-2xl md:text-3xl">Reserva una clase de orientación</h2>
-              <p className="mt-3 text-slate-600">
-                Conoce el nivel del estudiante y recibe una propuesta de apoyo adaptada a sus necesidades.
-              </p>
-
-              <div className="mt-8 grid gap-4 sm:grid-cols-2">
-                <div className="rounded-2xl bg-slate-50 p-4">
-                  <Clock className="mb-2 h-5 w-5" />
-                  <p className="font-semibold">Horarios flexibles</p>
-                  <p className="text-sm text-slate-600">Opciones entre semana y fines de semana.</p>
+              <h2 className="text-xl font-bold text-slate-900">Orientación inicial</h2>
+              
+              <div className="mt-4 space-y-4">
+                <div className="flex items-start gap-3">
+                  <div className="rounded-full bg-sky-100 p-2"><Clock className="h-4 w-4 shrink-0 text-sky-600" /></div>
+                  <div>
+                    <p className="text-sm font-semibold text-slate-900">Horarios flexibles</p>
+                    <p className="text-xs text-slate-600 mt-0.5">Opciones para toda la semana</p>
+                  </div>
                 </div>
-                <div className="rounded-2xl bg-slate-50 p-4">
-                  <Star className="mb-2 h-5 w-5" />
-                  <p className="font-semibold">Metodología dinámica</p>
-                  <p className="text-sm text-slate-600">Aprendizaje práctico, cercano y motivador.</p>
+                <div className="flex items-start gap-3">
+                  <div className="rounded-full bg-pink-100 p-2"><Star className="h-4 w-4 shrink-0 text-pink-600" /></div>
+                  <div>
+                    <p className="text-sm font-semibold text-slate-900">Enfoque dinámico</p>
+                    <p className="text-xs text-slate-600 mt-0.5">Práctico, cercano y efectivo</p>
+                  </div>
                 </div>
               </div>
             </CardContent>
