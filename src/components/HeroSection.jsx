@@ -20,7 +20,7 @@ export default function HeroSection() {
           transition={{ duration: 0.6 }}
           className="space-y-6"
         >
-          <div className="inline-flex items-center rounded-full bg-white/80 px-4 py-2 text-sm font-medium shadow-sm backdrop-blur">
+          <div className="inline-flex items-center rounded-full bg-white/80 px-4 py-2 text-sm font-medium shadow-sm backdrop-blur break-words text-center">
             Clases para niños y adolescentes
           </div>
 
@@ -67,8 +67,8 @@ export default function HeroSection() {
         >
           <Card className="rounded-[28px] border-0 bg-white/90 shadow-2xl backdrop-blur">
             <CardContent className="p-8 md:p-10">
-              <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-emerald-50 px-3 py-1 text-sm font-medium text-emerald-700">
-                <CheckCircle2 className="h-4 w-4" />
+              <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-emerald-50 px-3 py-1 text-sm font-medium text-emerald-700 break-words">
+                <CheckCircle2 className="h-4 w-4 shrink-0" />
                 Cupos disponibles
               </div>
               <h2 className="text-xl font-bold text-slate-900 sm:text-2xl md:text-3xl">Reserva una clase de orientación</h2>

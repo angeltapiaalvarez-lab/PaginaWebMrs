@@ -46,7 +46,7 @@ export default function FeaturesSection() {
               <Card className="h-full rounded-[24px] border-0 shadow-md">
                 <CardContent className="p-6">
                   <div className="mb-4 inline-flex rounded-2xl bg-sky-100 p-3">
-                    <Icon className="h-6 w-6" />
+                    <Icon className="h-6 w-6 shrink-0" />
                   </div>
                   <h3 className="mb-2 text-xl font-semibold">{item.title}</h3>
                   <p className="leading-relaxed text-slate-600">{item.text}</p>

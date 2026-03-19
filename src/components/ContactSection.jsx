@@ -39,15 +39,15 @@ export default function ContactSection() {
 
           <div className="space-y-4 pt-4 text-slate-200">
             <div className="flex items-center gap-3">
-              <Phone className="h-5 w-5 text-sky-300" />
+              <Phone className="h-5 w-5 shrink-0 text-sky-300" />
               <span>+506 7000-0000</span>
             </div>
             <div className="flex items-center gap-3">
-              <Mail className="h-5 w-5 text-sky-300" />
-              <span>profesora.demo@email.com</span>
+              <Mail className="h-5 w-5 shrink-0 text-sky-300" />
+              <span className="break-all">profesora.demo@email.com</span>
             </div>
             <div className="flex items-center gap-3">
-              <MapPin className="h-5 w-5 text-sky-300" />
+              <MapPin className="h-5 w-5 shrink-0 text-sky-300" />
               <span>Clases virtuales y presenciales</span>
             </div>
           </div>
